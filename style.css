@@ -105,12 +105,14 @@ nav .nav-wrapper ul li:hover a::after {
   width: 544px;
   margin-bottom: 55px;
 }
-
+#banner .banner-text .search {
+  position: relative;
+}
 #banner .banner-text .search input {
   display: inline-flex;
   height: 70px;
   width: 508px;
-  padding: 0 20px;
+  padding: 0 55px;
   align-items: center;
   flex-shrink: 0;
   border-radius: 15px;
@@ -160,7 +162,7 @@ nav .nav-wrapper ul li:hover a::after {
   border: 2px solid #f6772ea4;
 }
 #banner .banner-text .search input:focus {
-  border: 2px solid#f6772ea4;
+  border: 2px solid #f6772ea4;
   outline: none;
 }
 
@@ -170,4 +172,10 @@ nav .nav-wrapper ul li:hover a::after {
 .banner-img:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+.search img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
 }
