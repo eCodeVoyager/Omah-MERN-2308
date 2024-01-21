@@ -306,6 +306,10 @@ nav .nav-wrapper ul li:hover a::after {
   margin-top: 50px;
   margin-left: 6px;
 }
+#tahapan_card_2 > h5 {
+  margin-top: 78px;
+ 
+}
 .tahapan_cards_wrapper > .tahapan_card > h2 {
   color: #ff7527;
   font-family: Poppins;
